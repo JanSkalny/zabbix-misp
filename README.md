@@ -1,6 +1,7 @@
 # zabbix-misp
 
 Zabbix template for MISP monitoring
+
 ## Installation
 1. Import template & value mappings (`template.xml`).
 2. Add "MISP" template to your hosts / groups.
@@ -17,3 +18,7 @@ cp sudoers /etc/sudoers.d/zabbix-misp
 ```
 cp misp.conf /etc/zabbix/zabbix_agentd.d/
 ```
+
+### Requirements
+ - zabbix 4.0 or newer
+ - MISP 2.4.118 or newer
