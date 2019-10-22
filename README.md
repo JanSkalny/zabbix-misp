@@ -18,7 +18,9 @@ cp sudoers /etc/sudoers.d/zabbix-misp
 ```
 cp misp.conf /etc/zabbix/zabbix_agentd.d/
 ```
+6. Install dependencies (sudo, jq, ...)
 
 ### Requirements
  - zabbix 4.0 or newer
  - MISP 2.4.118 or newer
+ - jq installed on your MISP server
