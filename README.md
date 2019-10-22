@@ -2,7 +2,7 @@
 
 Zabbix template for MISP monitoring
 ## Installation
-1. Import template & value mappings (`*.xml`).
+1. Import template & value mappings (`template.xml`).
 2. Add "MISP" template to your hosts / groups.
 2. Install `zabbix_misp.sh` script:
 ```
